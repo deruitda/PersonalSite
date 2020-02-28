@@ -62,10 +62,31 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
+
+h1{
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 18px;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
+}
+
+#profile-pic {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    margin: 2rem;
 }
