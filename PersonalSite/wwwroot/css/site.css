@@ -71,7 +71,7 @@ h2 {
     font-size: 24px;
 }
 
-h1 {
+h3 {
     font-size: 18px;
 }
 
@@ -89,4 +89,14 @@ h1 {
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
     margin: 2rem;
+}
+
+#education {
+    color: white;
+}
+
+#education-background {
+    background-color: #004b87;
+    width: 100%;
+    margin: 0;
 }
