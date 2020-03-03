@@ -91,12 +91,20 @@ h3 {
     margin: 2rem;
 }
 
-#education {
-    color: white;
+#education-title {
+    margin-left: 13%;
 }
 
 #education-background {
     background-color: #004b87;
-    width: 100%;
-    margin: 0;
+    color: white;
+}
+
+#education-content{
+    text-align: center;
+}
+
+#container-main{
+    padding-right: 0;
+    padding-left: 0;
 }
