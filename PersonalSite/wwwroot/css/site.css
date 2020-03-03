@@ -91,7 +91,7 @@ h3 {
     margin: 2rem;
 }
 
-#education-title {
+.content-title {
     margin-left: 13%;
 }
 
@@ -100,8 +100,10 @@ h3 {
     color: white;
 }
 
-#education-content{
+.row-content {
     text-align: center;
+    min-height: 22rem;
+    margin-bottom: 3rem;
 }
 
 #container-main{
