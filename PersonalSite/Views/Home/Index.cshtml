@@ -2,18 +2,18 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center" id="profile">
+<div class="text-center row-content" id="profile">
     <img id="profile-pic" src="~/img/profile.jpg"/>
     <h1>Danny DeRuiter</h1>
     <h2>Full Stack Software Developer</h2>
     <h3>Grand Rapids, MI</h3>
 </div>
 
-<div id="education-background">
-    <div class="row" id="education-title">
-        <h1>Education</h1>
-    </div>
-    <div class="row" id="education-content">
+<div id="education-background" class="container-fluid">
+    <h1 class="row content-title" id="education-title">
+        Education
+    </h1>
+    <div class="row row-content" id="education-content">
         <div class="col-md-4">Grand Valley State University 2013 - 2018<br /> Bachelor of Science in Computer Science</div>
         <div class="col-md-4">
             <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="6a1c032a-062e-4ecf-bf79-5a4b537c3069" data-share-badge-host="https://www.youracclaim.com"></div>
@@ -24,3 +24,21 @@
         </div>
     </div>
 </div>
+
+<div id="technical-skills" class="container-fluid">
+    <h1 id="technical-skills-title" class="content-title">Technical Skills</h1>
+        <div id="technical-skills-content" class="row row-content">
+            <div class="col-md-4">
+                <h2>C#</h2> 
+                <img src="~/img/c-sharp.png" /> 
+            </div>
+            <div class="col-md-4"> 
+                <h2>ASP.NET Core</h2> 
+                <img src="~/img/net-core.png"/> 
+            </div>
+            <div class="col-md-4"> 
+                <h2>Azure</h2> 
+                <img src="~/img/azure.png" /> 
+            </div> 
+        </div>
+    </div>

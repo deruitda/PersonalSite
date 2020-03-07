@@ -91,7 +91,7 @@ h3 {
     margin: 2rem;
 }
 
-#education-title {
+.content-title {
     margin-left: 13%;
     margin-right: 0;
 }
@@ -99,6 +99,12 @@ h3 {
 #education-background {
     background-color: #004b87;
     color: white;
+}
+
+.row-content {
+    text-align: center;
+    min-height: 22rem;
+    margin-bottom: 3rem;
 }
 
 #education-content {
