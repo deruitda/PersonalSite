@@ -93,6 +93,7 @@ h3 {
 
 #education-title {
     margin-left: 13%;
+    margin-right: 0;
 }
 
 #education-background {
@@ -100,8 +101,9 @@ h3 {
     color: white;
 }
 
-#education-content{
+#education-content {
     text-align: center;
+    margin-right: 0;
 }
 
 #container-main{
