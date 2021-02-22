@@ -1,1 +1,56 @@
-<h1>Hi</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/site.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">PersonalSite</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid" id="container-main">
+        <main role="main" class="pb-3">
+            <div class="text-center row-content" id="profile">
+                <img id="profile-pic" src="img/profile.jpg" />
+                <h1>Danny DeRuiter</h1>
+                <h2>Software Developer II at Domino's</h2>
+                <h3>Grand Rapids, MI</h3>
+            </div>
+
+            <div id="education-background" class="container-fluid blue-background">
+                <h1 class="row content-title" id="education-title">
+                    Education
+                </h1>
+                <div class="row row-content" id="education-content">
+                    <div class="col-md-4">Hi tis me</div>
+                    </div>
+            </div>
+
+            <div id="contact-info" class="container-fluid">
+                <h1 id="contact-info-title" class="content-title">Contact Me!</h1>
+                <div id="contact-info-content" class="row row-content">
+
+                </div>
+            </div>
+
+        </main>
+    </div>
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/site.js" asp-append-version="true"></script>
+</body>
+
+</html>
